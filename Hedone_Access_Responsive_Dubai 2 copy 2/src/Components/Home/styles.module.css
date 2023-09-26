@@ -1,0 +1,41 @@
+/* Add these styles to your CSS stylesheet */
+.slide-text-enter {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 500ms ease-in-out, transform 500ms ease-in-out;
+  }
+  
+  .slide-text-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .slide-text-exit {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 500ms ease-in-out, transform 500ms ease-in-out;
+  }
+  
+  .slide-text-exit-active {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  
+  .slide-button-enter {
+    opacity: 0;
+    transition: opacity 500ms ease-in-out;
+  }
+  
+  .slide-button-enter-active {
+    opacity: 1;
+  }
+  
+  .slide-button-exit {
+    opacity: 1;
+    transition: opacity 500ms ease-in-out;
+  }
+  
+  .slide-button-exit-active {
+    opacity: 0;
+  }
+  
